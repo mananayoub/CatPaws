@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu:wght@300&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+#title{
+    background-color: #ff4c68;
+}
+
+.container-fluid{ 
+    padding: 0 15% ;
+    
+}
+
+.navbar{
+    padding: 0 0 3.5rem ;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+    font-size: 1rem;
+   
+}
+h1{
+    font-family: 'Montserrat-Blod', sans-serif;
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: 'Montserrat';
+    
+}
+
+.pd{
+    padding-top:20px ;
+}
+
+.down{
+    padding-bottom: 30px;
+}
+
+.btn{
+    margin: 5% 3% 5% 0;
+    
+}
+
+.img-title{
+    width: 60%;
+    transform: rotate(15deg);
+    position: relative;
+    right: -97px;
+    top: 10px;
+}
+
+.testimonial-text{
+    font-family:'Montserrat-Blod' ;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+h3{
+    font-family:'Montserrat-Blod' ;
+    font-size: 1.5rem;
+    padding-top: 20px;
+}
+
+.fah{
+    color: #ef8172;
+}
+
+.fah:hover{
+    color: #ff4c68;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+#features{
+    padding:7% 16%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.box{
+    text-align: center;
+    padding: 10px;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+    
+}
+
+.carousel-item{
+    padding:7% 12%;
+
+}
+
+.test-logo{
+    width: 10%;
+    border-radius: 100%;
+    margin: 15px;    
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.press-img{
+    width: 12%;
+    margin: 20px 20px 70px ;
+}
+
+#pricing{
+    padding: 45px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 2% 3%;
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 0 4%;
+    color: #fff;
+}
+
+.cta-pd{
+    padding: 7% 12%;
+}
+
+#footer{
+    background: #fff;
+    text-align: center;
+}
+
+.f-footer{
+    padding: 3% 3%;
+}
+
+.ic{
+    margin: 10px;
+}
+
+
+
+
+
+
+@media (max-width:1028px){
+
+    #title{
+        text-align: center;
+    }
+
+    .img-title{
+        position: static;
+       transform: rotate(0);
+       margin-top: 10px;
+    }
+
+    h1{
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    
+    .testimonial-text{
+        font-size: 2rem;
+    }
+}
